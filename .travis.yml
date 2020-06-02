@@ -56,8 +56,9 @@ before_script:
 
     # other deps
 
-    - wget -q http://storage.googleapis.com/dart-archive/channels/stable/release/latest/sdk/dartsdk-linux-x64-release.zip && unzip dartsdk-linux-x64-release.zip && mv dart-sdk vendor
-    - export DART_BIN=vendor/dart-sdk/bin/dart2js
+#    TODO Figure out why this doesn't work now
+#    - wget -q http://storage.googleapis.com/dart-archive/channels/stable/release/latest/sdk/dartsdk-linux-x64-release.zip && unzip dartsdk-linux-x64-release.zip && mv dart-sdk vendor
+#    - export DART_BIN=vendor/dart-sdk/bin/dart2js
 
     - wget -q https://www.jonof.id.au/files/kenutils/pngout-20200115-linux.tar.gz && tar -xzf pngout-20200115-linux.tar.gz && mv pngout-20200115-linux vendor
     - export PNGOUT_BIN=vendor/pngout-20200115-linux/amd64/pngout
