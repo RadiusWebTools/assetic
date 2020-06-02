@@ -92,7 +92,7 @@ EOF;
     {
         $this->setExpectedExceptionRegExp(
             'Exception',
-            '/^Undefined mixin box-shadow:.*line:* 4$/'
+            '/^Undefined mixin box-shadow:.*line:.*$/'
         );
 
         $asset = new FileAsset(__DIR__.'/fixtures/sass/main_compass.scss');

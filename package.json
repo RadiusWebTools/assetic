@@ -8,9 +8,6 @@
     "less": "*",
     "handlebars": "*",
     "uglify-js": "*",
-    "autoprefixer": "*",
-    "autoprefixer-5": "^1.x",
-    "autoprefixer-cli": "*",
     "roole": "*",
     "clean-css": "*"
   }
