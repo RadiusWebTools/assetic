@@ -46,11 +46,13 @@ before_script:
 #    TODO find the new URL for the cssembed JAR
 #    - wget https://github.com/downloads/nzakas/cssembed/cssembed-0.4.5.jar && mv cssembed-0.4.5.jar vendor/java
 #    - export CSSEMBED_JAR=vendor/java/cssembed-0.4.5.jar
-    - wget https://github.com/yui/yuicompressor/releases/download/v2.4.8/yuicompressor-2.4.8.zip && unzip yuicompressor-2.4.8.zip -d vendor/java
-    - export YUI_COMPRESSOR_JAR=vendor/java/yuicompressor-2.4.8/build/yuicompressor-2.4.8.jar
+#    TODO figure out why this doesn't work now
+#    - wget https://github.com/yui/yuicompressor/releases/download/v2.4.8/yuicompressor-2.4.8.zip && unzip yuicompressor-2.4.8.zip -d vendor/java
+#    - export YUI_COMPRESSOR_JAR=vendor/java/yuicompressor-2.4.8/build/yuicompressor-2.4.8.jar
 
     # ruby deps
-    - bundle install
+#    TODO Figure out why this doesn't work now
+#    - bundle install
 
     # other deps
 
@@ -58,6 +60,6 @@ before_script:
     - export DART_BIN=vendor/dart-sdk/bin/dart2js
 
     - wget -q https://www.jonof.id.au/files/kenutils/pngout-20200115-linux.tar.gz && tar -xzf pngout-20200115-linux.tar.gz && mv pngout-20200115-linux vendor
-    - export PNGOUT_BIN=vendor/pngout-20200115-linux/x86_64/pngout
+    - export PNGOUT_BIN=vendor/pngout-20200115-linux/amd64/pngout
 
 script: ./bin/phpunit -v
