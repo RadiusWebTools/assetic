@@ -1,10 +1,9 @@
 {
   "devDependencies": {
     "uglifycss": "*",
-    "coffee-script": "*",
+    "coffeescript": "*",
     "stylus": "*",
     "nib": "*",
-    "ember-precompile": "*",
     "typescript": "*",
     "less": "*",
     "handlebars": "*",
@@ -13,7 +12,6 @@
     "autoprefixer-5": "^1.x",
     "autoprefixer-cli": "*",
     "roole": "*",
-    "react-tools": "*",
     "clean-css": "*"
   }
 }
