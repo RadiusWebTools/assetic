@@ -30,7 +30,7 @@
         "psr/log": "~1.0",
         "ptachoire/cssembed": "~1.0",
         "symfony/phpunit-bridge": "~2.7|~3.0",
-        "twig/twig": "~1.23|~2.0",
+        "twig/twig": "~2.0",
         "yfix/packager": "dev-master"
     },
     "suggest": {
